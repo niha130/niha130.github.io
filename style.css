@@ -1,0 +1,47 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+
+.header {
+    padding: 80px;
+    background-color: #079992;
+    background-image: url("/ext/BlogTitle.png");
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+}
+.column {
+    padding: 10px;
+    border-radius: 30px;
+}
+.column.left {
+    background-color: #82ccdd;
+    width: 25%;
+    text-align: center;
+}
+.column.left img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+.column.right {
+    background-color: bisque;
+    width: 75%;
+    height: auto;
+}
+.column.right a {
+    font-size: 70px;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}
+
